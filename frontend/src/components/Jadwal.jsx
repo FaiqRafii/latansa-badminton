@@ -1,5 +1,10 @@
+"use client";
 import React from 'react'
 import FormPesan from './FormPesan'
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
 
 function Jadwal() {
     return (
@@ -16,77 +21,252 @@ function Jadwal() {
                         </div>
                     </div>
 
-                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-xl flex gap-3 items-center text-white text-xs md:text-sm'>
-                        <div className="h-full w-30 bg-teal-700 rounded-l-xl flex justify-center items-center text-white text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
+                    <div className=''>
+                        <Swiper className='flex flex-col justify-center items-center'
+                            modules={[Autoplay]}
+                            loop={true}
+                            autoplay={{ delay: 3000 }}
+                            centeredSlides={true}
+                            slidesPerView={1}>
+                            <SwiperSlide>
+                                <div className='flex flex-col gap-1 justify-center items-center px-2'>
+                                    <div>Lapangan 1</div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                <div className='flex flex-col gap-1 justify-center items-center px-2'>
+                                    <div>Lapangan 2</div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                <div className='flex flex-col gap-1 justify-center items-center px-2'>
+                                    <div>Lapangan 3</div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-lg flex gap-3 items-center text-white text-xs md:text-sm'>
+                                        <div className="h-full w-30 bg-teal-700 rounded-l-lg flex justify-center items-center text-white text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-lg flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
+                                        <div className="h-full w-30 bg-zinc-200 rounded-l-lg flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
+                                            07:00 - 08:00
+                                        </div>
+                                        Ramadhani Firdaus
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
+
                     </div>
-                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-xl flex gap-3 items-center text-white text-xs md:text-sm'>
-                        <div className="h-full w-30 bg-teal-700 rounded-l-xl flex justify-center items-center text-white text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
-                    </div>
-                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-xl flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
-                        <div className="h-full w-30 bg-zinc-200 rounded-l-xl flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
-                    </div>
-                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-xl flex gap-3 items-center text-white text-xs md:text-sm'>
-                        <div className="h-full w-30 bg-teal-700 rounded-l-xl flex justify-center items-center text-white text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
-                    </div>
-                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-xl flex gap-3 items-center text-white text-xs md:text-sm'>
-                        <div className="h-full w-30 bg-teal-700 rounded-l-xl flex justify-center items-center text-white text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
-                    </div>
-                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-xl flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
-                        <div className="h-full w-30 bg-zinc-200 rounded-l-xl flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
-                    </div><div className='w-full h-8 md:h-10 bg-teal-600 rounded-xl flex gap-3 items-center text-white text-xs md:text-sm'>
-                        <div className="h-full w-30 bg-teal-700 rounded-l-xl flex justify-center items-center text-white text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
-                    </div>
-                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-xl flex gap-3 items-center text-white text-xs md:text-sm'>
-                        <div className="h-full w-30 bg-teal-700 rounded-l-xl flex justify-center items-center text-white text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
-                    </div>
-                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-xl flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
-                        <div className="h-full w-30 bg-zinc-200 rounded-l-xl flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
-                    </div><div className='w-full h-8 md:h-10 bg-teal-600 rounded-xl flex gap-3 items-center text-white text-xs md:text-sm'>
-                        <div className="h-full w-30 bg-teal-700 rounded-l-xl flex justify-center items-center text-white text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
-                    </div>
-                    <div className='w-full h-8 md:h-10 bg-teal-600 rounded-xl flex gap-3 items-center text-white text-xs md:text-sm'>
-                        <div className="h-full w-30 bg-teal-700 rounded-l-xl flex justify-center items-center text-white text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
-                    </div>
-                    <div className='w-full h-7 md:h-10 bg-white border border-zinc-200 rounded-xl flex gap-3 items-center text-zinc-800 text-xs md:text-sm text-center'>
-                        <div className="h-full w-30 bg-zinc-200 rounded-l-xl flex justify-center items-center text-zinc-800 text-xs md:text-sm font-semibold">
-                            07:00 - 08:00
-                        </div>
-                        Ramadhani Firdaus
-                    </div>
-                    
+
+
+
                     <div className='flex px-5 py-2 gap-5'>
                         <div className='flex items-center gap-2'>
                             <div className='w-2 h-2 rounded-full bg-teal-600'></div>
@@ -99,7 +279,7 @@ function Jadwal() {
                     </div>
                 </div>
 
-                <FormPesan/>
+                <FormPesan />
             </div>
         </div>
     )
