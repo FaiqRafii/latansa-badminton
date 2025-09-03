@@ -1,4 +1,5 @@
 import React from 'react'
+import FormPesan from './FormPesan'
 
 function Jadwal() {
     return (
@@ -98,46 +99,7 @@ function Jadwal() {
                     </div>
                 </div>
 
-                <div className='w-full h-fit bg-zinc-50 rounded-xl p-10'>
-                    <div className='text-2xl'>Pesan Lapangan</div>
-                    <div className='hidden'>
-                        <div className='mt-10 w-full h-full flex flex-col justify-center items-center'>
-                            <div className="">Anda Belum Login</div>
-                            <div className='text-zinc-500 text-sm'><a href="#" className='hover:text-teal-400 text-teal-500'>Login</a> Disini</div>
-                        </div>
-                    </div>
-
-                    <div className=''>
-                        <div className='mt-3 flex gap-1 w-full h-fit justify-center items-center'>
-                            <div className='flex justify-center items-center h-3 w-fit py-3 px-4 rounded-2xl bg-teal-500 text-xs md:text-base'>
-                                <div className='flex items-center gap-2'>
-                                    <div className='bg-white rounded-full h-5 w-5 flex justify-center items-center text-xs text-teal-500'>1</div>
-                                    <div className='text-white'>
-                                        Pilih Jadwal
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='flex justify-center items-center h-3 w-fit py-3 px-4 rounded-2xl bg-zinc-500 text-xs md:text-base'>
-                                <div className='flex items-center gap-2'>
-                                    <div className='bg-white rounded-full h-5 w-5 flex justify-center items-center text-xs text-zinc-500'>2</div>
-                                    <div className='text-white'>
-                                        Isi Data Diri
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='flex justify-center items-center h-3 w-fit py-2 px-3 rounded-2xl bg-zinc-500 text-xs md:text-base'>
-                                <div className='flex items-center gap-2'>
-                                    <div className='bg-white rounded-full h-5 w-5 flex justify-center items-center text-xs text-zinc-500'>3</div>
-                                    <div className='text-white'>
-                                        Pembayaran
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
+                <FormPesan/>
             </div>
         </div>
     )
